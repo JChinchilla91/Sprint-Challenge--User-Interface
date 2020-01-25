@@ -109,9 +109,40 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-section {
+    border-bottom: 1px dashed black;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-boxes {
+ /*   border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.middle-boxes div {
+/*    border: 2px solid yellow; */
+    width: 48%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    background: white;
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 2% 0%;
 }
 
 .middle-content h2 {
@@ -187,6 +218,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    margin: 5% 0%;
 }
 
 footer {
