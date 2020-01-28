@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 700px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.jumbo {
+    margin-bottom: 5%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -85,9 +109,44 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-section {
+    border-bottom: 1px dashed black;
+}
+
+.about-text {
+    padding: 2%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-boxes {
+ /*   border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.middle-boxes div {
+/*    border: 2px solid yellow; */
+    width: 48%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    background: white;
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 2% 0%;
 }
 
 .middle-content h2 {
@@ -104,12 +163,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box.box1 {
+    background: teal;
+}
+
+.box.box2 {
+    background: gold;
+}
+
+.box.box3 {
+    background: cadetblue;
+}
+
+.box.box4 {
+    background: coral;
+}
+
+.box.box5 {
+    background: crimson;
+}
+
+.box.box6 {
+    background: forestgreen;
+}
+
+.box.box7 {
+    background: darkorchid;
+}
+
+.box.box8 {
+    background: hotpink;
+}
+
+.box.box9 {
+    background: indigo;
+}
+
+.box.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +222,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    margin: 5% 0%;
 }
 
 footer {
